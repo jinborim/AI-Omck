@@ -1,0 +1,18 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+private_key*
+client_secret*
+service-account*.json
+firebase-adminsdk*.json
+
+# Local and generated files
+node_modules/
+dist/
+build/
+.DS_Store
+index.corrupted.backup.html
+privacy.corrupted.backup.js

@@ -1,0 +1,33 @@
+﻿<!doctype html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI Omok</title><link rel="stylesheet" href="style.css"></head><body>
+<div id="guestScreen" class="guest-screen"><div class="guest-card"><div class="guest-mark">&#9679; &#9675;</div><p class="eyebrow">AI OMOK</p><h2>Welcome to Beat the AI at Omok</h2><p>Choose a language and start the game.</p><select id="languageSelect" class="language-select"><option value="ko">Korean</option><option value="en">English</option><option value="ja">Japanese</option><option value="zh">Chinese</option><option value="es">Espa嶺??뱇</option><option value="pt">Portugu嶺???/option><option value="fr">Fran嶺??쌻s</option><option value="de">Deutsch</option><option value="vi">Ti癲놁옓?됭キ??Vi?????/option><option value="it">Italiano</option></select><input id="guestName" maxlength="12" placeholder="Guest name" autocomplete="off"><button id="guestStart" class="primary">Start as Guest</button><small>Saved only on this device.</small></div></div>
+<main class="app"><header><div></div><div class="turn" id="turn">Black's turn</div></header><button id="panelOpen" class="panel-open" aria-label="Open menu"></button><section class="layout"><div class="board-card"><div id="board" class="board"></div><div id="handActor" class="hand-actor"></div></div><aside class="panel"><button id="panelToggle" class="panel-toggle" aria-label="Collapse menu"></button><div class="mode"><button class="active" data-mode="ai">AI Match</button><button data-mode="local">2 Player</button></div><div class="stage-select"><b>AI Stage</b><div id="stageButtons" class="stage-buttons"></div><select id="difficulty" class="hidden-select"><option value="easy">easy</option><option value="normal">normal</option><option value="hard">hard</option></select></div><div class="players"><div id="black" class="player active"><i class="stone black"></i><span><b>Black</b><small>Player</small></span></div><div id="white" class="player"><i class="stone white"></i><span><b>White</b><small id="whiteLabel">AI</small></span></div></div><div id="message" class="message">Black starts.</div><button id="undo" class="primary">Undo</button><button id="reset" class="secondary">New Game</button><p class="tip">In AI Match, you play black. Tap an intersection to place a stone.</p><button id="shopOpen" class="shop-open secondary">Shop</button><section id="shopPanel" class="shop modal hidden"><div class="shop-window"><div class="shop-head"><h2>Shop</h2><span id="coins">300</span></div><p class="shop-note">Customize your Omok board with coins.</p><div id="themes" class="themes"><button class="theme-card active" data-theme="wood" data-price="0"><span class="theme-preview wood-preview"></span><b>Warm Wood</b><small>Owned</small></button><button class="theme-card" data-theme="ocean" data-price="120"><span class="theme-preview ocean-preview"></span><b>Blue Ocean</b><small>120</small></button><button class="theme-card" data-theme="night" data-price="180"><span class="theme-preview night-preview"></span><b>Starry Night</b><small>180</small></button><button class="theme-card" data-theme="blossom" data-price="240"><span class="theme-preview blossom-preview"></span><b>Blossom Village</b><small>240</small></button></div></div></section></aside><button id="panelCloseStatic" type="button" aria-label="Close menu"></button></section></main>
+<div id="resultModal" class="modal hidden"><div class="modal-card"><div id="resultIcon" class="result-icon" aria-hidden="true"></div><h2 id="resultTitle">Victory!</h2><p id="resultText">Congratulations.</p><div id="rewardText" class="reward-text"></div><div id="modalReset" class="result-image-button primary" role="button" tabindex="0"></div><div id="modalExit" class="result-image-button secondary" role="button" tabindex="0"></div></div></div><div id="noticeModal" class="modal hidden"><div class="modal-card notice-card"><div class="result-icon">?嶺?/div><h2 id="noticeTitle">Not enough coins</h2><p id="noticeText">You need more coins to buy this theme.</p><button id="noticeClose" class="primary">OK</button></div></div>
+<script src="onboarding.js"></script>
+<script src="language-select-fix.js"></script>
+<script src="account-state.js"></script>
+<script src="game.js"></script>
+<script src="final-i18n.js"></script>
+<script src="translations.js"></script>
+<script src="stage-ui.js"></script>
+<script src="shop-i18n.js"></script>
+<script src="ui-fixes.js"></script>
+<script src="shop-price-fix.js"></script>
+<script src="google-login.js"></script>
+<script src="guest-auth.js"></script>
+<script src="nickname.js"></script>
+<script src="language-fix.js"></script>
+<script src="ranking.js"></script>
+<script src="privacy.js"></script>
+<script src="account-delete.js"></script>
+<script src="logout.js"></script>
+<script src="board-recovery.js"></script>
+<script src="panel-close.js"></script>
+</body></html>
+
+
+
+
+
+
+
+

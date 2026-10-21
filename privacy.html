@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Omok 개인정보처리방침</title>
+  <style>
+    :root { color-scheme: light; }
+    body { margin: 0; background: #eef2fb; color: #303a4d; font-family: Arial, "Noto Sans KR", sans-serif; line-height: 1.7; }
+    main { max-width: 860px; margin: 32px auto; padding: 32px 40px; background: #fffdf8; border-radius: 18px; box-shadow: 0 8px 28px rgba(45, 57, 82, .14); }
+    h1 { margin-top: 0; font-size: 30px; }
+    h2 { margin-top: 34px; font-size: 21px; }
+    h3 { margin-top: 26px; font-size: 17px; }
+    a { color: #4d6ed8; }
+    li { margin: 6px 0; }
+    .date { color: #68748a; }
+    @media (max-width: 600px) { main { margin: 0; padding: 24px 20px; border-radius: 0; } h1 { font-size: 25px; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>AI Omok 개인정보처리방침</h1>
+  <p class="date"><strong>시행일: 2026년 10월 20일</strong></p>
+
+  <h2>1. 개인정보처리자 및 문의</h2>
+  <p>서비스명: AI Omok<br>개인정보 보호 및 문의: <a href="mailto:j8648638j@gmail.com">j8648638j@gmail.com</a></p>
+
+  <h2>2. 수집하는 정보</h2>
+  <ul>
+    <li>Google 로그인: Google 사용자 ID, 표시 이름, 이메일 주소, 프로필 이미지(제공되는 경우)</li>
+    <li>게스트 로그인: Firebase가 발급하는 익명 사용자 ID</li>
+    <li>게임 정보: 닉네임, 현재 및 최고 AI 단계, 승패 기록, 코인 및 구매한 테마</li>
+    <li>문의 정보: 이용자가 문의를 보내는 경우 문의 내용과 회신 이메일</li>
+  </ul>
+
+  <h2>3. 이용 목적</h2>
+  <p>로그인과 계정 확인, 게임 진행 상황 저장, AI 단계 및 온라인 랭킹 제공, 문의 답변과 서비스 오류 대응을 위해 이용합니다.</p>
+
+  <h2>4. 보유 및 이용 기간</h2>
+  <p>계정 및 랭킹 정보는 회원 탈퇴 또는 삭제 요청 시까지 보관합니다. 기기 안에만 저장되는 게임 데이터는 사용자가 브라우저 저장 데이터를 삭제하거나 계정 삭제를 실행할 때 삭제됩니다. 관계 법령에 따라 보관해야 하는 정보가 있는 경우에는 해당 기간 동안 보관합니다.</p>
+
+  <h2>5. 개인정보의 제공 및 처리위탁</h2>
+  <p>서비스 운영을 위해 Google Sign-In, Firebase Authentication, Firebase Cloud Firestore를 사용합니다. 로그인·인증 정보와 게임 정보가 해당 서비스 제공자의 서버에서 처리될 수 있습니다. 그 밖의 제3자에게 개인정보를 판매하거나 광고 목적으로 제공하지 않습니다.</p>
+
+  <h2>6. 국외 이전</h2>
+  <p>Google 및 Firebase의 서버 위치와 서비스 운영 정책에 따라 개인정보가 국외에서 처리·보관될 수 있습니다. 이전되는 정보는 로그인 정보와 게임 정보이며, 목적은 인증·저장·랭킹 제공입니다.</p>
+
+  <h2>7. 이용자의 권리 및 삭제 방법</h2>
+  <p>이용자는 자신의 개인정보에 대해 열람, 정정, 삭제, 처리정지를 요청할 수 있습니다. 게임 메뉴의 계정 삭제 기능을 사용하거나 <a href="mailto:j8648638j@gmail.com">j8648638j@gmail.com</a>으로 요청해 주세요. 삭제된 정보는 복구할 수 없습니다.</p>
+
+  <h2>8. 안전성 확보</h2>
+  <p>인증 토큰과 데이터베이스 접근은 Firebase의 인증 및 보안 규칙을 통해 보호합니다. 서비스 운영에 필요한 범위에서만 접근 권한을 사용합니다.</p>
+
+  <h2>9. 자동 수집 장치 및 로컬 저장소</h2>
+  <p>이 게임은 광고·분석 목적의 쿠키를 사용하지 않습니다. 로그인 및 게임 진행을 위해 브라우저의 localStorage와 sessionStorage를 사용할 수 있습니다.</p>
+
+  <h2>10. 닉네임과 랭킹 데이터</h2>
+  <p>닉네임 중복 확인을 위해 닉네임과 Firebase 사용자 식별자를 Cloud Firestore의 <strong>nicknames</strong> 컬렉션에 저장합니다. 랭킹 제공을 위해 닉네임, 계정 식별자, Google 이메일(해당하는 경우), 최고 단계와 갱신 시각을 <strong>rankings</strong> 컬렉션에 저장합니다.</p>
+
+  <h2>11. 계정 및 데이터 삭제</h2>
+  <p>계정 삭제 기능을 사용하면 Google 로그인 정보, Firebase 인증 정보, 닉네임, 랭킹 및 서비스 내 계정 기록의 삭제를 요청할 수 있습니다. 닉네임 중복 방지 기록도 함께 삭제됩니다. 백업 또는 법령상 보존이 필요한 정보는 해당 기간 후 삭제될 수 있습니다.</p>
+
+  <h2>12. Firebase 및 Google API 제한적 사용</h2>
+  <p>Google API에서 받은 정보는 로그인, 계정 식별 및 게임 서비스 제공에 필요한 범위에서만 사용합니다. 해당 정보를 광고, 판매 또는 신용·대출 심사와 같은 관련 없는 목적으로 사용하지 않습니다. Google API에서 받은 정보의 사용은 Chrome 웹스토어 사용자 데이터 정책의 제한적 사용 요건을 준수합니다.</p>
+
+  <h2>13. 서비스 제공자의 처리</h2>
+  <p>Firebase Authentication은 인증과 보안·부정 사용 방지를 위해 인증 정보, IP 주소 및 사용자 에이전트 등의 기술 정보를 처리할 수 있습니다. Firebase는 서비스에 따라 미국 또는 글로벌 Google 인프라에서 데이터를 처리할 수 있습니다.</p>
+
+  <h2>14. 정책 변경</h2>
+  <p>법령이나 서비스 변경에 따라 본 방침을 수정할 수 있으며, 변경 시 시행일과 함께 서비스 안에서 안내합니다.</p>
+
+  <h2>English Summary</h2>
+  <p>AI Omok uses Google Sign-In or Firebase anonymous authentication, nickname, ranking, game progress, coins, and purchased themes to provide login, game saving, rankings, and related support. We do not sell user information or use it for advertising. Users may request access, correction, deletion, or restriction by using the account deletion feature or contacting <a href="mailto:j8648638j@gmail.com">j8648638j@gmail.com</a>. Google API data is used only for the disclosed service purposes and in accordance with the Chrome Web Store User Data Policy, including its Limited Use requirements.</p>
+</main>
+</body>
+</html>
