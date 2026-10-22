@@ -9,3 +9,7 @@
 5. 새 탭을 열면 오목 게임이 실행됩니다.
 
 현재 버전은 AI 대전과 2인 로컬 대전을 지원합니다. 온라인 대전은 별도의 WebSocket 또는 WebRTC 중계 서버가 필요합니다.
+
+## Chrome Web Store
+
+[Install AI Omok from the Chrome Web Store](https://chromewebstore.google.com/detail/ai-omok/dfclgpgioapiihaliojefpiplkcbpcjg)
